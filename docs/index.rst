@@ -35,7 +35,7 @@ Integrate PYNQ and Arduino
 
 Although official PYNQ boards equip Arduino sockets, developers have to convert Arduino sketches to run the codes over MicroBlaze soft processor. We tried this porting process once, and found it very troublesome. We'd like to make it much easier, to fully release the potential of PYNQ in the embedded projects.
 
-We hope this project would help developers to build applications on the PYNQ, with combining the existing assets of Arduino. 
+We hope this project would help developers to build applications on the PYNQ, with combining existing assets of Arduino. 
 
 ---------------------
 Demo
