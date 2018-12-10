@@ -3,43 +3,48 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-=====================
-Pynquino
-=====================
+.. Pynquino documentation master file, created by
+   sphinx-quickstart on Sun Jun 17 13:19:24 2018.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
 
+=====================
+About Pynquino
+=====================
+Pynquino is a project which aims to collaborate **Arduino** (open source hardware for makers) and **PYNQ** (Python-friendly FPGA platform by Xilinx).
 
 .. toctree::
   :hidden:
 
-  getting_started
-  blockly
-  developers
-  showcases
-  development_plan
+  .. getting_started
+  .. blockly
+  .. developers
+  .. showcases
+  .. development_plan
 
-
-Introduction
-=====================
 
 ---------------------
-Beyond PYNQ
+Integrate PYNQ and Arduino
 ---------------------
 
-1) PYNQ project integrated Linux operating system over Processing System(PS), MicroBlaze micro controller for real time control, and fast computation over FPGA fabric (PL)
-2) PYNQ does not provide Arduino integration as software, therefore, Arduino firmware needs to be converted to fit on MicroBlaze
-3) PYNQ enables users to develop with Python and Jupyter notebook ,however, it is still challenge for non-programmers to customize the python code
+.. image:: ./img/pynq-z1.jpg
+   :scale: 15%
+   :height: 100px
+   :align: right
+
+`PYNQ platform by Xilinx <http://www.pynq.io/>`_ enables software engineers to develop high performance applications using Python on FPGA, such as machine learning and image processing. 
+
+Although official PYNQ boards equip Arduino sockets, developers have to convert Arduino sketches to run the codes over MicroBlaze soft processor. We tried this porting process once, and found it very troublesome. We'd like to make it much easier, to fully release the potential of PYNQ in the embedded projects.
+
+We hope this project would help developers to build applications on the PYNQ, with combining the existing assets of Arduino. 
 
 ---------------------
-Project objective
+Demo
 ---------------------
-Pynquino projects aims to provide following softwares for reinforcing Arduino integration with PYNQ and easy development for non-programmer.
+We are currently working for developing a demo project: integration of computer vision feature into RepRap based 3D printer.
 
-1) Pynquino compiler for porting Arduino code to PYNQ-Microblaze automatically
-2) Blockly editor as wrapper environment of Jupyter notebook 
+* `Firmware (called as Zsprinter) <https://github.com/shohei/zsprinter-pynquino>`_
+* `PYNQ-Arduino 3D printing shield <https://github.com/shohei/3dp-shield-rev3>`_
 
----------------------
-Application
----------------------
-1) Integrate different types of robot and sensors 
-2) Accelerate computer vision and machine learning 
+We will describe detailed documents shortly.
 
