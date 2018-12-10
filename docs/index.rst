@@ -29,7 +29,7 @@ Integrate PYNQ and Arduino
 
 .. image:: ./img/pynq-z1.jpg
    :scale: 15%
-   :height: 100px
+   :height: 200px
    :align: right
 
 `PYNQ platform by Xilinx <http://www.pynq.io/>`_ enables software engineers to develop high performance applications using Python on FPGA, such as machine learning and image processing. 
