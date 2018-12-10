@@ -11,7 +11,7 @@
 =====================
 About Pynquino
 =====================
-Pynquino is a project which aims to collaborate **Arduino** (open source hardware for makers) and **PYNQ** (Python-friendly FPGA platform by Xilinx).
+Pynquino is a project which aims to coordinate **Arduino** (open source hardware for makers) with **PYNQ** (Python-friendly FPGA platform by Xilinx).
 
 .. toctree::
   :hidden:
